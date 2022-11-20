@@ -24,8 +24,9 @@
 .img-zoom-result {
   border: 1px solid #d4d4d4;
   /*set the size of the result div:*/
-  width: 50%;
   height: 50%;
+  width: height;
+  
 }
 </style>
 <script>
@@ -91,7 +92,7 @@ function imageZoom(imgID, resultID) {
 
 <div class="img-zoom-container">
   <a href="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" target="_blank" title="Click for larger image"><img id="myimage" src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="Eiffel Tower" height="50%" ></a>
-  <div id="myresult" class="img-zoom-result"></div>
+  <img id="myresult" class="img-zoom-result">
 </div>
 
 
